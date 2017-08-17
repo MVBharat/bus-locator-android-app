@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffb6c1"
+>
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffb6c1"
+    >
+
+
+    <android.support.v7.widget.AppCompatImageView
+
+    android:id="@+id/imageViewMap"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        app:srcCompat="@drawable/map" />
+
+    <TextView
+        android:id="@+id/TextViewMap"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="07dp"
+        android:textSize="30dp"
+        android:paddingLeft="45dp"
+        android:text="Map"
+        android:layout_below="@+id/imageViewMap"
+        android:layout_alignLeft="@+id/imageViewMap"
+        android:layout_alignStart="@+id/imageViewMap" />
+
+    <android.support.v7.widget.AppCompatImageView
+
+        android:id="@+id/imageViewNotify"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:srcCompat="@drawable/notification"
+        android:layout_alignTop="@+id/imageViewMap"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginEnd="20dp" />
+    <TextView
+        android:id="@+id/TextViewNotify"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="07dp"
+        android:textSize="30dp"
+        android:paddingLeft="5dp"
+        android:text="Notifiction"
+        android:layout_below="@+id/imageViewNotify"
+        android:layout_alignLeft="@+id/imageViewNotify"
+        android:layout_alignStart="@+id/imageViewNotify"
+        android:layout_alignRight="@+id/imageViewNotify"
+        android:layout_alignEnd="@+id/imageViewNotify" />
+
+    <android.support.v7.widget.AppCompatImageView
+
+        android:id="@+id/imageViewTiming"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="28dp"
+        app:srcCompat="@drawable/timing"
+        android:layout_below="@+id/TextViewMap"
+        android:layout_alignLeft="@+id/TextViewMap"
+        android:layout_alignStart="@+id/TextViewMap" />
+
+    <TextView
+        android:id="@+id/TextViewTiming"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:textSize="30dp"
+        android:paddingLeft="45dp"
+        android:text="Timing"
+        android:layout_below="@+id/imageViewTiming"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <android.support.v7.widget.AppCompatImageView
+
+        android:id="@+id/imageViewRoute"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:srcCompat="@drawable/route"
+        android:layout_alignTop="@+id/imageViewTiming"
+        android:layout_alignLeft="@+id/TextViewNotify"
+        android:layout_alignStart="@+id/TextViewNotify" />
+
+    <TextView
+        android:id="@+id/TextViewRoute"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:paddingLeft="25dp"
+        android:text="Route"
+        android:layout_alignBaseline="@+id/TextViewTiming"
+        android:layout_alignBottom="@+id/TextViewTiming"
+        android:layout_alignLeft="@+id/imageViewRoute"
+        android:layout_alignStart="@+id/imageViewRoute" />
+
+    <android.support.v7.widget.AppCompatImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/wrtcompimg"
+        android:onClick="complaint"
+        app:srcCompat="@drawable/complaint"
+        android:layout_marginTop="17dp"
+        android:layout_below="@+id/TextViewTiming"
+        android:layout_alignLeft="@+id/imageViewTiming"
+        android:layout_alignStart="@+id/imageViewTiming" />
+
+    <TextView
+        android:id="@+id/TextViewComplaint"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:paddingLeft="10dp"
+        android:text="Complaint"
+        android:layout_marginTop="0dp"
+        android:layout_below="@+id/wrtcompimg"
+        android:layout_alignLeft="@+id/wrtcompimg"
+        android:layout_alignStart="@+id/wrtcompimg" />
+
+
+</RelativeLayout>
+
+
+</ScrollView>

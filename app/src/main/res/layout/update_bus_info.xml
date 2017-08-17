@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter bus number"
+        android:id="@+id/busnumberenter"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/deletonebus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete Bus"
+        android:layout_marginTop="20dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="update bus"
+        android:layout_marginTop="20dp"
+        android:id="@+id/update_bus"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View All bus"
+        android:layout_marginTop="20dp"
+        android:id="@+id/viewbuses"/>
+</LinearLayout>
