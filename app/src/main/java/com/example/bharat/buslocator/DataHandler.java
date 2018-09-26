@@ -137,11 +137,9 @@ public class DataHandler  {
         statement.executeInsert();
     }
 
-
     public void insertd(String name, String pass){
 
     }
-
     public void editComplaints(String emailadd, String subject, String compdetail) {
 
         db=dbhelper.getWritableDatabase();
