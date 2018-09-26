@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgb"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Now Your Bus Timing"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:textColor="#ffffff"
+        android:textSize="33dp"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:hint="enter bus number"
+            android:layout_marginLeft="20dp"
+            android:textColor="#ffffff"
+            android:id="@+id/etBusNum"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Search"
+            android:id="@+id/btnOkk"
+            android:background="#EF5350"
+            android:layout_marginLeft="30dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+        <Button
+            android:layout_width="160dp"
+            android:layout_height="50dp"
+            android:background="#EF5350"
+            android:text="View in Map"
+            android:id="@+id/mapviewButtonTiming"
+            android:layout_marginLeft="20dp"/>
+        <Button
+            android:layout_width="160dp"
+            android:layout_height="50dp"
+            android:background="#EF5350"
+            android:text="View all Bus"
+            android:layout_marginLeft="30dp"
+            android:id="@+id/busnumview"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Bus Timing"
+            android:id="@+id/txtTiming"
+            android:textSize="30dp"
+            android:textColor="#ffffff"
+            android:visibility="gone"
+            android:layout_marginLeft="20dp"
+            />
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/busnuminfolistView"
+        android:layout_marginTop="16dp"
+        android:layout_below="@+id/busnumview"
+        android:background="#FF6E64C9"
+        android:dividerHeight="10dp"
+        android:visibility="gone"
+       />
+    </LinearLayout>
+</LinearLayout>

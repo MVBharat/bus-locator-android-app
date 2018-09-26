@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">BusLocator</string>
+    <string name="next">Next to Login</string>
+    <string name="about_app">Hi , This app Build for provides bus information about bus timing and route with Map through GPS Service.
+        The Current location of bus is sent to the user through notification, who are supposed to board at the next pickup point.
+        User can get the their current location and Buslocation by Map Service.
+
+    </string>
+
+    <string name="login_success">login success</string>
+    <string name="login">LOGIN</string>
+    <string name="Username">Username</string>
+    <string name="EmailID">EmailID</string>
+    <string name="Password">Password</string>
+    <string name="forgot_your_password">Forgot your password ?</string>
+    <string name="go">GO</string>
+    <string name="repeat_password">Repeat Password</string>
+    <string name="nexxt">NEXT</string>
+    <string name="register">REGISTER</string>
+
+</resources>
